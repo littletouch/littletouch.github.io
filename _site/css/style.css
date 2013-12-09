@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900italic);
+
+html {
+/*    background-image: url(/img/pattern.png);*/
+    background: #F0F0F0 url(/img/colors.png) repeat-y left bottom;
+}
+
+::selection { 
+    background:red; 
+    color:white; 
+}
+::-moz-selection { 
+    background:red; 
+    color:white; 
+}
+
+
+body {
+    color: #222;
+    font-size: 16px;
+    font-family: "Lato", helvetica, arial, sans-serif;
+    padding-top: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-family:"Lato", helvetica, arial, sans-serif;
+    font-weight: 900px;
+    font-style: italic;
+    letter-spacing: -2px; 
+}
+#container {
+    margin: 0 auto;
+    width: 620px;  
+}
+
+article {
+    line-height: 1.5em;
+}
+
+header li {
+  display: inline;
+}
+/*footer*/
+#container > footer {
+    border-top: 1px solid #CCC;
+    clear: both;
+    margin: 20px 0;
+}
+/*links*/
+a {
+  color: #D05A6E;
+  text-decoration: none;
+}
+a:visited {
+  color: #c7260d;
+  text-decoration: none;
+}
+a:active {
+  color: #c7260d;
+  text-decoration: none;
+}
+a:hover {
+  color: #e7463d;
+  text-decoration: underline;
+}
+/*icons*/
+p#rellinks {
+    height: 30px;
+    text-align: center;
+}
+ 
+p#rellinks a {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-top: 12px;
+}
+ 
+p#rellinks a img {
+    opacity: 0.5;
+}
+ 
+p#rellinks a:hover img {
+    opacity: 1.0;
+}
+
+/*tracks*/
+#tracks a {
+    color:black;
+    
+}
+
+/*typo*/
+.footnotes {
+    font-size: 0.75em;
+    color: #5D5D5D;
+}
+
+/*quote*/
+blockquote {
+    margin: 0 0 20px 32px;
+    color: #333;
+    border-left: 4px #ccc solid;
+    padding-left: 6px;
+    font-style:italic
+}
+
+/*code*/
+/*.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  font-size: 85%;
+  padding: 0 .2em;
+}
+
+.post pre code {
+   border: none;
+}*/
+
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+    font-size: 85%;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+
+
+
